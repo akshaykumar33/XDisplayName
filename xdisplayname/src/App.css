@@ -1,0 +1,45 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 2em;
+  margin: 2em auto;
+  max-width: 400px; 
+  background-color: gray;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+label {
+  margin-bottom: 0.5em; /* Adding space below labels */
+}
+
+input{
+
+  height: 2em;
+  width:15em;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.7em;
+  margin:1em;
+}
+
+
+button {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+ height:3em;
+  font-size: 1em; /* Using em units for font size */
+  font-weight: bold; /* Using "bold" instead of "bolder" */
+  cursor: pointer; /* Changing cursor to pointer on hover */
+}
